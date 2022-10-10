@@ -1,0 +1,24 @@
+$primary : #ffffff;
+$secondary: #f9fbfc;
+$tertiary: #f2f4f5;
+$quaternary: #cfe4ff;
+$quinary: #c4dcff;
+$senary: #191d22;
+$septenary: #15191f;
+$octonary: #1e81d4;
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.2s ease 0s;
+}
+body{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}

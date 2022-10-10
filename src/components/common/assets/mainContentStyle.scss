@@ -1,0 +1,380 @@
+@import '../../../App.scss';
+
+.home-main{
+    background-color: $secondary;
+    width: 100%;
+    padding: 30px 0;
+
+    .home-main-content{
+        display: flex;
+        gap: 30px;
+
+        .home-left-content{
+            width: 90%;
+
+            .home-stats{
+                display: flex;
+                gap: 10px;
+                width: 100%;
+                justify-content: space-between;
+
+                .small-papers{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                }
+
+                .stats-paper{
+                    border-radius: 20px;
+                    border: none;
+                    background-color: white;
+                    padding: 20px;
+                    width: 100%;
+                    height: 200px;
+
+                    .stats-paper-top{
+                        display: flex;
+                        justify-content: space-between;
+
+                        .paper-heading{
+                            font-size: 16px;
+                            font-weight: 1000;
+                        }
+
+                        .head-buttons{
+                            display: flex;
+                            gap: 10px;
+                        }
+                    }
+
+                    .stats-body{
+                        padding: 10px 0 0;
+
+                        .stats-body-mid{
+                            display: flex;
+                            gap: 10px;
+
+                            .stats-body-left{
+                                ul{
+                                    li{
+                                        color: grey;
+                                        font-size: 10px;
+                                        margin: 15px 0;
+                                    }
+                                }
+                            }
+
+                            .stats-body-lines{
+                                width: 100%;
+                                position: relative;
+
+
+                                .line1{
+                                    position: absolute;
+                                    top: -3px;
+                                    margin: 25px 0;
+                                    border:  none;
+                                    background-color: $secondary;
+                                    height: 1.5px;       
+                                    width: 100%;                         
+                                    border-radius: 10px;
+                                }
+
+                                .line2{
+                                    position: absolute;
+                                    top: 27px;
+                                    margin: 25px 0;
+                                    border:  none;
+                                    background-color: $secondary;
+                                    height: 1.5px;       
+                                    width: 100%;                         
+                                    border-radius: 10px;
+                                }
+
+                                .line3{
+                                    position: absolute;
+                                    top: 57px;
+                                    margin: 25px 0;
+                                    border:  none;
+                                    background-color: $secondary;
+                                    height: 1.5px;       
+                                    width: 100%;                         
+                                    border-radius: 10px;
+                                }
+
+                                .line4{
+                                    position: absolute;
+                                    top: 88px;
+                                    margin: 25px 0;
+                                    border:  none;
+                                    background-color: $secondary;
+                                    height: 1.5px;       
+                                    width: 100%;                         
+                                    border-radius: 10px;
+                                }
+                            }
+                        }
+
+
+                    }
+
+                    .stats-body-foot{
+                        .foot-list{
+                            position: relative;
+                            ul{
+                                // margin: 0 20px;
+                                display: flex;
+                                font-size: 10px;
+                                color: grey;
+                                
+                                li{
+                                    margin: 0 0px 0 45px;
+
+                                }
+                            }
+
+                            .dot{
+                                position: absolute;
+                                top: -116px;
+                                left: 198px;
+                                border-radius: 10px;
+                                background-color: #d5b0f8;
+                                height: 6px;
+                                width: 6px;
+                            }
+
+                            .bar1{
+                                position: absolute;
+                                width: 6px;
+                                top: -96px;
+                                left: 53px;
+                                border-radius: 20px;
+                                background: $septenary;
+                                height: 70px;
+                            }
+                            .bar2{
+                                position: absolute;
+                                width: 6px;
+                                top: -67px;
+                                left: 127px;
+                                border-radius: 20px;
+                                background: $septenary;
+                                height: 40px;
+                            }
+                            .bar3{
+                                position: absolute;
+                                width: 6px;
+                                top: -103px;
+                                left: 198px;
+                                border-radius: 20px;
+                                background:#d5b0f8;
+                                height: 78px;
+                            }
+                            .bar4{
+                                position: absolute;
+                                width: 6px;
+                                top: -76px;
+                                left: 270px;
+                                border-radius: 20px;
+                                background: $septenary;
+                                height: 50px;
+                            }
+                            .bar5{
+                                position: absolute;
+                                width: 6px;
+                                top: -70px;
+                                left: 342px;
+                                border-radius: 20px;
+                                background: $septenary;
+                                height: 45px;
+                            }
+                            .bar6{
+                                position: absolute;
+                                width: 6px;
+                                top: -102px;
+                                left: 415px;
+                                border-radius: 20px;
+                                background: $septenary;
+                                height: 78px;
+                            }
+                            .bar7{
+                                position: absolute;
+                                width: 6px;
+                                top: -64px;
+                                right: 35px;
+                                border-radius: 20px;
+                                background: $septenary;
+                                height: 40px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .home-parcel-stats{
+                background-color: $primary;
+                border-radius: 20px;
+                margin: 30px 0 0 0;
+                padding: 20px;
+
+                .parcel-stats-head{
+                    display: flex;
+                    justify-content: space-between;
+
+                    .parcel-head-left{
+                        font-size: 16px;
+                        font-weight: bolder;
+                    }
+
+                    .parcel-head-right{
+                        display: flex;
+
+                        .calendar{
+                            button{
+                                background-color: $primary;
+                                border: 1px solid lightgrey;
+                                border-radius: 50%;
+                                padding: 3px 5px 0px;
+                                margin: 0 20px ;
+                                box-sizing: border-box;
+                            }
+                        }
+
+                        .selectBtn{
+                            select{
+                                background-color: $secondary;
+                                padding: 0 10px;
+                                height: 25px;
+                                border: 1px solid lightgrey;
+                                border-radius: 20px;
+                                outline: none;
+                                box-sizing: border-box;
+                            }
+                        }
+                    }
+                }
+
+                .parcel-stats-body{
+                    margin: 20px 0 0;
+
+                    .list{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+
+                        .list-item{
+                            display: flex;
+                            align-items: center;
+                            // justify-content: space-between;
+                            gap: 85px;
+
+                            .icon-btn{
+                                width: 100px;
+                                Button{
+                                    margin: 0 30px 0 0;
+                                }
+                            
+                            }
+
+                            .place-name{
+                                width: 100px;
+                                font-size: 14px;
+                                span{
+                                    font-weight: bold;
+                                }
+                                
+                            }
+
+                            .qty-btn{
+                                width: 110px;
+                                font-size: 14px;
+                                font-weight: bold;
+                                display: flex;
+
+                                Button{
+                                    margin: 0px 0px 0 10px;
+                                }
+                            }
+
+                            .time{
+                                width: 180px;
+                                font-size: 14px;
+
+                            }
+
+
+                        }
+                    }
+
+                    .h-border{
+                        border: 1px solid #f9fbfc;
+                        border-radius: 20px;
+                    }
+                }
+            }
+        }
+
+        .home-right-content{
+            width: 30%;
+            margin: 90px 0 0 0;
+
+            .right-list{
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+
+                .right-list-item{
+                    display: flex;
+                    gap: 10px;
+
+                    .list-text{
+                        font-size: 12px;
+                        span{
+                            font-weight: bold;
+                        }
+                        p{
+                            color: grey;
+                        }
+                    }
+                }
+            }
+
+            .right-paper{
+                // width: 200px;
+                margin-top: 20px;
+                padding: 20px;
+                border-radius: 20px;
+                background-color: $quinary;
+
+                .paper-head{
+                    display: flex;
+                    gap: 10px;
+
+                    .head-text{
+                        font-size: 12px;
+                        span{
+                            font-weight: bold;
+                        }
+                        p{
+                            color: grey;
+                        }
+                    }
+
+                   
+                }
+
+                .paper-body{
+                    margin: 5px 0 10px;
+                    font-size: 12px;
+                
+                }
+
+                .paper-btn{
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+}
