@@ -9,7 +9,6 @@ function Whitepaper(props) {
     background: white;
     width: 160px;
     height: 75px;
-    // margin-bottom: 10px;
   `;
 
   const PaperHead = styled.div`
@@ -61,6 +60,7 @@ function Whitepaper(props) {
       margin: 15px 0 0 0;
     }
   `;
+
   return (
     <>
       <PaperMain>

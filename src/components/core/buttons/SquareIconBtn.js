@@ -11,11 +11,7 @@ function SquareIconBtn(props) {
     height: 40px;
     width: 40px;
   `;
-  return (
-    <>
-      <Button>{props.icon}</Button>
-    </>
-  );
+  return <Button>{props.icon}</Button>;
 }
 
 export default SquareIconBtn;

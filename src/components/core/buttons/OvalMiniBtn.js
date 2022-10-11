@@ -12,11 +12,7 @@ function OvalMiniBtn(props) {
     padding: 2px 10px 0;
     height: 20px;
   `;
-  return (
-    <>
-      <Button>{props.name}</Button>
-    </>
-  );
+  return <Button>{props.name}</Button>;
 }
 
 export default OvalMiniBtn;

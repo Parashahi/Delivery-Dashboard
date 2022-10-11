@@ -11,11 +11,7 @@ function OvalSmallBtn(props) {
     color: ${props.fColor};
     cursor: pointer;
   `;
-  return (
-    <>
-      <Button>{props.name}</Button>
-    </>
-  );
+  return <Button>{props.name}</Button>;
 }
 
 export default OvalSmallBtn;

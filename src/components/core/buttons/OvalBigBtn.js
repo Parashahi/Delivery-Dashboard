@@ -16,11 +16,7 @@ function OvalBtn(props) {
       color: black;
     }
   `;
-  return (
-    <div>
-      <Button>{props.name}</Button>
-    </div>
-  );
+  return <Button>{props.name}</Button>;
 }
 
 export default OvalBtn;

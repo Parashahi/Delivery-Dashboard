@@ -12,11 +12,7 @@ function OvalMediumBtn(props) {
     color: black;
     border: none;
   `;
-  return (
-    <>
-      <Button>{props.name}</Button>
-    </>
-  );
+  return <Button>{props.name}</Button>;
 }
 
 export default OvalMediumBtn;

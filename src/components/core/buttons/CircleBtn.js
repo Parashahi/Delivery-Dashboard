@@ -12,11 +12,7 @@ function CircleBtn(props) {
     padding: 4px 4px 0;
     // margin: 10px 10px 10px 0;
   `;
-  return (
-    <>
-      <Button>{props.icon}</Button>
-    </>
-  );
+  return <Button>{props.icon}</Button>;
 }
 
 export default CircleBtn;
